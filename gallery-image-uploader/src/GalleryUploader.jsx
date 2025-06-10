@@ -74,8 +74,7 @@ const GalleryUploader = () => {
 
   return (
     <div className="gallery-container">
-      <h3>We would love for you to share the memories you captured at our celebration</h3>
-      <p>*Images can be up to 150KB in size and in .jpg format only</p>
+<div className="upload-form">
       <form onSubmit={handleUpload} className="upload-form">
         <input
           type="file"
@@ -86,6 +85,8 @@ const GalleryUploader = () => {
         <button type="submit">Upload</button>
       </form>
       {message && <p className="message">{message}</p>}
+</div>
+
 
       <div className="gallery-grid">
         {gallery.map((img, index) => (

@@ -4,8 +4,7 @@ import GalleryUploader from "./GalleryUploader";
 
 const GalleryPanel = () => (
   <div className="image-sharing-panel">
-    <h2>Upload Your Images</h2>
-    <GalleryUploader />
+       <GalleryUploader />
   </div>
 );
 export default GalleryPanel;
