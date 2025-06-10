@@ -1,0 +1,50 @@
+
+
+.upload-form {
+  margin-bottom: 1rem;
+}
+
+.upload-form input[type="file"] {
+  margin-right: 1rem;
+}
+
+
+.message {
+  margin: 0.5rem 0;
+  color: #d33;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 1 / 1;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.delete-button {
+  margin-top: 5px;
+  padding: 4px 8px;
+  background-color: #bf6c66;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-button:hover {
+  background-color: #a14f4a;
+}
